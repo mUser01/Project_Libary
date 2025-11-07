@@ -6,7 +6,28 @@
     <title>Document</title>
 </head>
 <body>
-    <button></button>
+    <dialog>
+        <form>
+            <label>
+                Add Book:
+                <p>Title:</Title><input type="text" id="title"></p>
+                <p>Author:<input type="text" id="author"></p>
+                <p>Pages<input type="number" value="0" min="0"  id="pages"></p>
+                <p>
+                    Is read:
+                    <select id="read">
+                        <option value="default">Choose...</option>
+                        <option value="true">Read</option>
+                        <option value="false">Not read yet</option>
+                    </select>
+                </p>
+            </label>
+            <button value="cancel" formmethod="dialog">Cancel</button>
+            <button value="default" id="confirmBtn">Confirm</button>
+        </form>
+    </dialog>
+    <p>Click here:<button id="show-dialog">New Book</button></p>
+    <output></output>
 </body>
-<script src="script.js"></script>
+<script src="BookLibrary.js"></script>
 </html>
