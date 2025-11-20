@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
@@ -22,11 +23,14 @@
                     </select>
                 </p>
             </label>
-            <button value="cancel" formmethod="dialog">Cancel</button>
             <button value="default" id="confirmBtn">Confirm</button>
+            <button value="cancel" formmethod="dialog">Cancel</button>
         </form>
     </dialog>
-    <p>Click here:<button id="show-dialog">New Book</button></p>
+    <div class="add-book">
+        <h2>Add a new book:</h2>
+        <button id="show-dialog">New Book</button>
+    </div>
     <output></output>
 </body>
 <script src="BookLibrary.js"></script>

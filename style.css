@@ -1,0 +1,41 @@
+body {
+    background: #90ee90bd;
+}
+
+.add-book {
+    outline: solid black 2px;
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 2em;
+    background-color: white;
+}
+
+.book {
+    text-align: center;
+    outline: solid black 2px;
+    padding: 20px;
+    margin: 1em auto;
+    width: 50%;
+    height: 35%;
+    border-radius: 2em;
+    background-color: white;
+    margin-right: auto;
+}
+
+dialog {
+    border-radius: 2em;
+}
+
+button {
+    width: 9em;
+    height: 3em;
+    border-radius: 3em;
+    margin: auto 2em;
+}
+
+button:nth-child(3) {
+    background: red;
+    color: white;
+}
